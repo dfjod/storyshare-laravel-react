@@ -1,8 +1,8 @@
-import { BeakerIcon } from "@heroicons/react/24/outline";
-import "./App.css";
+import Navbar from "./Navbar.jsx";
+import "./index.css";
 
 function App() {
-    return <div className="App"></div>;
+    return <Navbar />;
 }
 
 export default App;
