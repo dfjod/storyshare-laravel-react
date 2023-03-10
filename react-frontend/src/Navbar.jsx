@@ -3,12 +3,18 @@ export default function Navbar() {
         <header>
             <div id="navbar">
                 <div id="navbar-title">
-                    <h2>Story Share</h2>
+                    <a href="">Story Share</a>
                 </div>
                 <div id="navbar-list">
-                    <a href="">Sign in</a>
-                    <a href="">Sign up</a>
-                    <a href="">Sort by</a>
+                    <div className="navbar-list-item">
+                        <a href="">Sign in</a>
+                    </div>
+                    <div className="navbar-list-item">
+                        <a href="">Sign up</a>
+                    </div>
+                    <div className="navbar-list-item">
+                        <a href="">Sort by</a>
+                    </div>
                 </div>
             </div>
         </header>
